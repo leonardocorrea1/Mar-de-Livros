@@ -19,13 +19,7 @@ import Singin from './routes/Singin'
 import Singnup from './routes/Singnup'
 import FormADM from './routes/FormADM'
 import QuemSomos from './routes/QuemSomos'
-import useAuth from './hooks/useAuth'
 
-const Private = ({Item}) => {
-  const signed = false;
-
-  return signed > 0 ? <Item /> : <AddLivro />;
-};
 
 
 
@@ -51,7 +45,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/post",
-        element: <Private Item= {AddLivro} />
+        element: <AddLivro/>
       },
       {
         path: "/edit/:id",
