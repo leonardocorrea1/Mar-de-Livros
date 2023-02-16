@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #168af2;
+    height: 100vh; 
+    display: grid;
+    place-items: center center; 
+    font-family: 'Noto Serif'serif;
+    
+  }
+  
+  .cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    padding: 30px;
+    grid-gap: 30px; 
+    
+  }
+  .cards{
+    background-color: #168af2;;
+    border-radius: 20px; 
+    box-shadow: 0 0 30px rgba(0,0,0,0.18);
+    
+  }
+  .container{
+    position: relativee; 
+    clip-path: polygon(0 9,100% 0, 100% 85%, 0 100%);
+    
+  }
+  img{
+    width: 100%;
+    display: block;
+    border-radius: 20px 20px 0 0;
+    
+    
+    
+  }
+  .container2:after{
+    content: "";
+    height: 100%; 
+    width: 100%;
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    border-radius: 20px 2opx 0 0;
+    opacity: 0,7;
+    
+  }
+  .card1>.container2:after{
+    background-image: linear-gradient(
+      135deg,
+      
+    );
+  }
+  
+  .card2>.container2:after{
+    background-image: linear-gradient(
+      135deg,
+     
+    );
+  }
+  
+  .card3>.container2:after{
+    background-image: linear-gradient(
+      135deg,
+      
+    );
+  }
+  .card4>.container2:after{
+    background-image: linear-gradient(
+      135deg,
+     
+    );
+  }
+  .card5>.container2:after{
+    background-image: linear-gradient(
+      135deg,
+     
+    );
+  }
+  .card6>.container2:after{
+    background-image: linear-gradient(
+      135deg,
+      
+    );
+  }
+  .details{
+    padding: 10px 5px; 
+  }
+  
+  .details>h3{
+    color: #ffffff;
+    font-weight: 600; 
+    font-size: 18px; 
+    margin: 10px 0 15px 0; 
+  }
+  .details>h2{
+    color: #ffffff;
+    font-weight: 600; 
+    font-size: 18px; 
+    margin: 10px 0 15px 0;
+  }
+  .details>p{
+    color: #ffffff; 
+    font-size: 15px; 
+    line-height: 30px; 
+    font-weight: 400px; 
+    
+  }
